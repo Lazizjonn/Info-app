@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InfoActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E3AD9A">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/back_from_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="?android:selectableItemBackgroundBorderless"
+                android:padding="8dp"
+                android:src="@drawable/ic_back_button" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/main_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:gravity="center_vertical"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:text="@string/travel" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F6D4C9">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--1-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="8dp"
+                android:focusable="true"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/pic_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="centerCrop"
+                    tools:src="@drawable/italy_pic_1" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/text_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="3dp"
+                android:textSize="18sp"
+                tools:text="@string/italy_1" />
+
+            <!--2-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="8dp"
+                android:focusable="true"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/pic_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="centerCrop"
+                    tools:src="@drawable/italy_pic_1" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/text_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="3dp"
+                android:textSize="18sp"
+                tools:text="@string/italy_1" />
+
+            <!--3-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="8dp"
+                android:focusable="true"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/pic_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="centerCrop"
+                    tools:src="@drawable/italy_pic_1" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/text_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="3dp"
+                android:textSize="18sp"
+                tools:text="@string/italy_1" />
+
+            <!--4-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="8dp"
+                android:focusable="true"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/pic_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="centerCrop"
+                    tools:src="@drawable/italy_pic_1" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/text_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="3dp"
+                android:textSize="18sp"
+                tools:text="@string/italy_1" />
+
+            <!--5-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="8dp"
+                android:focusable="true"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/pic_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="centerCrop"
+                    tools:src="@drawable/italy_pic_1" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/text_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="3dp"
+                android:textSize="18sp"
+                tools:text="@string/italy_1" />
+
+            <!--6-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="8dp"
+                android:focusable="true"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/pic_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="centerCrop"
+                    tools:src="@drawable/italy_pic_1" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/text_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="3dp"
+                android:textSize="18sp"
+                tools:text="@string/italy_1" />
+
+            <!--7-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="8dp"
+                android:focusable="true"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/pic_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="centerCrop"
+                    tools:src="@drawable/italy_pic_1" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/text_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="3dp"
+                android:textSize="18sp"
+                tools:text="@string/italy_1" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
